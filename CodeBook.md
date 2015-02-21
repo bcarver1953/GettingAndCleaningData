@@ -3,9 +3,9 @@ Course project for Coursera "Getting and Cleaning Data"
 
 B. Carver | February 2015  |  Project Code Book - Codebook.md
 
-<b>Data Manipulation and Transformation Steps:</b>
+<b>Data Manipulation and Transformation Steps</b>
 
-| Filename  | Description | 
+| Filename  | Action/Manipulation | 
 | ------------- | ------------- |
 | ColumnNames.txt  | this file was created and loaded as a reference dataframe identifying the columns of interest 
 | X_test.txt/.csv<br>X_train.tst/.csv  | The base data files *.txt were edited to:<br>- convert amm multi-space strings to a single space <br> - remove leading spaces in the first column<br>- use a comma field separator<p>and then were saved as filetype *.csv<br> These were then loaded to a dataframe and columns of interest selected in a subset action| 
@@ -19,9 +19,11 @@ B. Carver | February 2015  |  Project Code Book - Codebook.md
 
 See the README.md document for a list and description of all data sets in use.
 
-Variables in Use:
+<b>Variables in Use</b>
 
 BaseDataColumnNames data frame
 
-
+| Variable  | Description | 
+| ------------- | ------------- |
+| Position  | Relative position of a variable in the base data (  X_test.txt/.csv & X_train.tst/.csv) <br>selected values 1 to 561 |
 
