@@ -2,6 +2,7 @@
 Course project for Coursera "Getting and Cleaning Data" Feb 2015
 
 Files in use:
+
 | Filename  | Description | 
 | ------------- | ------------- |
 | X_test.txt/.csv  | Base 'test' data in text and cleaned comma separate values formats  | 
