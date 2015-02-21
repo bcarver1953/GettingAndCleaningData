@@ -1,5 +1,6 @@
 # GettingAndCleaningData
 Course project for Coursera "Getting and Cleaning Data" Feb 2015
+B. Carver
 
 Files in use:
 
