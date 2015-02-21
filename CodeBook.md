@@ -5,7 +5,7 @@ Project Code Book
 
 B. Carver | February 2015
 
-Files in use:
+Data Manipulation and Transformation Steps:
 
 | Filename  | Description | 
 | ------------- | ------------- |
@@ -21,4 +21,7 @@ Files in use:
 | tidy_data.txt  | Averages by Subject for columns of interest (those base columns associated with mean or standard deviation |
 | CodeBook.md  | Code book describing how the tidy data set was constructed |
 
-See the CodeBook.md document for further details on data manipulation and a detailed description of the final data set TidyData.txt.
+See the README.md document for a list and description of all data sets in use.
+
+Variables in Use:
+
