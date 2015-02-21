@@ -39,5 +39,11 @@ tidy_data.txt data frame
 
 | Variable  | Description | 
 | ------------- | ------------- |
-| Position  | Relative position of a variable in the base data (  X_test.txt/.csv & X_train.tst/.csv ) <br>selected values 1 to 561 |
+| Activity_Label | The manually observed activity that described a subject at time of observation/data collection<br>Values:<br>- <br>Walking
+<br>Walking Upstairs
+<br>Walking Downstairs
+<br>Sitting
+<br>Standing
+<br>Laying |
+| Subject  | A unique key to identify each subject (person) observed and monitored in the study |
 
