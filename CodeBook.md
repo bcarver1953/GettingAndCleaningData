@@ -7,15 +7,15 @@ B. Carver | February 2015  |  Project Code Book - Codebook.md
 
 | Filename  | Action/Manipulation | 
 | ------------- | ------------- |
-| <b>- Data loads -</b> ||
+| <b>Data loads</b> ||
 | ColumnNames.txt  | A file was created and loaded by this researcher as the source for a reference data frame identifying the columns of interest by position, interim "V"-prefixed variable name, original base data variable name and a final "tidy data" column name - for each of 86 base data variables present in the X_test and Y_train txt/csv files |
 | X_test.txt/.csv<br>X_train.tst/.csv  | The base data files *.txt were edited to:<br>- convert any multi-space strings to a single space <br> - remove leading spaces in the first column<br>- use a comma field separator<p>and then were saved as filetype *.csv<br> These CSV files were then loaded to a working data frame and columns of interest selected in a subset action | 
 | y_test.txt<br>y_train.txt | These files identify the activity being performed at each observtion in the base data<br> they were loaded to a working data frame and bound to each base data row from the corresponding base data file X_test.txt/.csv & X_train.tst/.csv |   
 | subject_test.txt<br>subject_train.txt  | These files identify the subject associated with each base data row and were loaded to separate data frames |
-| <b>- Column Binding -</b> | For each of test and train data:<br> The three compnent files were loaded to working data frames, >br>variables of interest in the base data selected and renamed <br> and then combined in a "cbind" action to associate each subject with the observed activity and the related device measurements |
-| <b>- Test and Train merge -</b> | The resulting Test and Train observations were unioned in an rbind action into a single global set of observations |
-| <b>- Recoding -</b> | Activity labels were recoded into a new "Activity_Label" variable for greater readbility |
-| <b>- Summarization -</b> | 
+| <b>Column Binding</b> | For each of test and train data:<br> The three compnent files were loaded to working data frames, >br>variables of interest in the base data selected and renamed <br> and then combined in a "cbind" action to associate each subject with the observed activity and the related device measurements |
+| <b>Test and Train merge</b> | The resulting Test and Train observations were unioned in an rbind action into a single global set of observations |
+| <b>Recoding</b> | Activity labels were recoded into a new "Activity_Label" variable for greater readbility |
+| <b>Summarization</b> | 
 | tidy_data.txt  | Averages by Subject for columns of interest (those base columns associated with mean or standard deviation |
 
 
