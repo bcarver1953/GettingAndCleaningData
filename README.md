@@ -1,7 +1,7 @@
 # GettingAndCleaningData
 Course project for Coursera "Getting and Cleaning Data" 
 
-B. Carver | February 2015
+B. Carver | February 2015  |  README.md
 
 Files in use:
 
