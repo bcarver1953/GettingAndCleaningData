@@ -7,7 +7,7 @@ Data Manipulation and Transformation Steps:
 
 | Filename  | Description | 
 | ------------- | ------------- |
-| X_test.txt/.csv<br>X_train.tst/.csv  | The base text files *.txt were edited to:<br>- one <br> - two| 
+| X_test.txt/.csv<br>X_train.tst/.csv  | The base text files *.txt were edited to:<br>- comvert amm multi-space strings to a single space <br> - remove leading spaces in the first column<br>- use a comma field separator<p>and then were saved as filetype *.csv| 
 |  | Base 'train' data in text and cleaned comma separate values formats  |
 | y_test.txt/.csv  | Manual activity observations matching each detailed measurement row in X_test.csv |
 | y_train.txt/.csv  | Manual activity observations matching each detailed measurement row in X_train.csv |
