@@ -3,7 +3,7 @@ Course project for Coursera "Getting and Cleaning Data"
 
 B. Carver | February 2015  |  Project Code Book - Codebook.md
 
-Data Manipulation and Transformation Steps:
+<b>Data Manipulation and Transformation Steps:</b>
 
 | Filename  | Description | 
 | ------------- | ------------- |
