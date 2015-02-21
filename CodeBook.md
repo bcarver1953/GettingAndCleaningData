@@ -7,9 +7,10 @@ B. Carver | February 2015  |  Project Code Book - Codebook.md
 
 | Filename  | Action/Manipulation | 
 | ------------- | ------------- |
-| ColumnNames.txt  | this file was created and loaded as a reference dataframe identifying the columns of interest |
-| X_test.txt/.csv<br>X_train.tst/.csv  | The base data files *.txt were edited to:<br>- convert amm multi-space strings to a single space <br> - remove leading spaces in the first column<br>- use a comma field separator<p>and then were saved as filetype *.csv<br> These were then loaded to a dataframe and columns of interest selected in a subset action| 
-| subject_test.txt<br>subject_train.txt  | These files were loaded to sparate data frames and bound to their associated base data rows   |
+| ColumnNames.txt  | This file was created and loaded as a reference data frame identifying the columns of interest |
+| X_test.txt/.csv<br>X_train.tst/.csv  | The base data files *.txt were edited to:<br>- convert amm multi-space strings to a single space <br> - remove leading spaces in the first column<br>- use a comma field separator<p>and then were saved as filetype *.csv<br> These CSV files were then loaded to a dataframe and columns of interest selected in a subset action| 
+| y_test.txt<br>y_train.txt | The files identify the activity being performed at each observtion in the base data<br> they were loaded and bound to each base data row in the corresponding base data file X_test.txt/.csv & X_train.tst/.csv |   
+| subject_test.txt<br>subject_train.txt  | These files identify the subject associated with each base data row and were loaded to sparate data frames and bound to their associated base data rows   |
 |   | Observed individual identifying row matching each detailed measurement row in X_train.csv   |
 | activity_labels.txt | Text labels describing each observed activity (walking, sitting ...) |
 | ColumnNames.txt  | Researcher constructed indices to identify and correlate rownames of interest |
