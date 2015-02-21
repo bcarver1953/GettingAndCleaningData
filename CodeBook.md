@@ -12,9 +12,9 @@ B. Carver | February 2015  |  Project Code Book
 | y_test.txt<br>y_train.txt | These files identify the activity being performed at each observtion in the base data.<br> They were loaded to a working data frame and bound to each base data row from the corresponding base data file X_test.txt/.csv & X_train.tst/.csv and manually assigned the column name "Activity". |   
 | subject_test.txt<br>subject_train.txt  | These files identify the subject associated with each base data row and were loaded to separate data frames.  The column was manually named "Subject". |
 | <b>Column Binding</b> | For each of test and train data:<br> The three component files were loaded to working data frames, variables of interest in the base data were selected and renamed and then combined in a "cbind" action to associate each subject with the observed activity and the related device measurements. |
-| <b>Merge</b> | The resulting Test and Train observations were unioned in an rbind action into a single global set of observations. |
-| <b>Recoding</b> | Activity labels were recoded into a new "Activity_Label" variable for greater readbility |
-| <b>Summarization</b> | Averages by Subject for columns of interest (those base columns associated with mean or standard deviation.  Saved to tidy_data.txt|
+| <b>Merge</b> | The resulting combined observations in each of the test and train data frame groups were unioned in an rbind action into a single global set of observations ("Interim global data frame" below). |
+| <b>Recoding</b> | The Activity value in this final combined data frame was recoded into a new "Activity_Label" variable for greater readbility. |
+| <b>Summarization</b> | Averages by Subject for columns of interest (those base columns associated with mean or standard deviation).  These summary results were saved to tidy_data.txt. |
 
 
 See the README.md document for a list and description of all data sets in use.
@@ -22,7 +22,7 @@ See the README.md document for a list and description of all data sets in use.
 <b>Variables in Use</b>
 
 BaseDataColumnNames data frame - used in the interim data assembly and manipulation steps.
-<br>One row per measure column name related to mean or standard deviation
+<br>One row per measure column name related to mean or standard deviation. 
 
 | Variable  | Description | 
 | ------------- | ------------- |
@@ -32,7 +32,7 @@ BaseDataColumnNames data frame - used in the interim data assembly and manipulat
 | OriginalName | The original base data measureent name from the features.txt file<br>(These were recoded for R purposes into names that better matched R syntax standards)|
 
 <b>Interim global data frame</b>
-<br>One row per observation in either the test or train data sets
+<br>One row per observation in either the test or train data sets.
 
 | Variable  | Description | 
 | ------------- | ------------- |
