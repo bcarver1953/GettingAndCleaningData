@@ -1,6 +1,6 @@
 # GettingAndCleaningData
 Course project for Coursera "Getting and Cleaning Data" 
-
+Project Code Book
 B. Carver | February 2015
 
 Files in use:
