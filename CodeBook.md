@@ -7,17 +7,17 @@ B. Carver | February 2015  |  Project Code Book - Codebook.md
 
 | Filename  | Action/Manipulation | 
 | ------------- | ------------- |
-| Data loads |
+| - Data loads - ||
 | ColumnNames.txt  | This file was created and loaded as a reference data frame identifying the columns of interest |
 | X_test.txt/.csv<br>X_train.tst/.csv  | The base data files *.txt were edited to:<br>- convert any multi-space strings to a single space <br> - remove leading spaces in the first column<br>- use a comma field separator<p>and then were saved as filetype *.csv<br> These CSV files were then loaded to a working data frame and columns of interest selected in a subset action | 
 | y_test.txt<br>y_train.txt | These files identify the activity being performed at each observtion in the base data<br> they were loaded to a working data frame and bound to each base data row from the corresponding base data file X_test.txt/.csv & X_train.tst/.csv |   
 | subject_test.txt<br>subject_train.txt  | These files identify the subject associated with each base data row and were loaded to separate data frames |
-| 
-| activity_labels.txt | Text labels describing each observed activity (walking, sitting ...)<br> These were used in a manual R recode action to add labels to the numeric base indicator as teh "Activity_Label" variable.|
-| ColumnNames.txt  | Researcher constructed indices to identify and correlate rownames of interest |
-| run_analysis.R  | R script containing the automated data manipulation steps | 
+| - Column Binding - | For each of test and train data:,br> The three compnent files were loaded to working data frames, >br>variables of interest in the base data selected and renamed <br> and then combined in a "cbind" action to associate each subject with the observed activity and the related device measurements |
+| - Test and Train merge - | The resulting Test and Train observations were unioned in an rbind action into a single global set of observations |
+| - Recoding - | Activity labels were recoded into a new "Activity_Label" variable for greater readbility |
+| - Summarization - | 
 | tidy_data.txt  | Averages by Subject for columns of interest (those base columns associated with mean or standard deviation |
-| CodeBook.md  | Code book describing how the tidy data set was constructed |
+
 
 See the README.md document for a list and description of all data sets in use.
 
