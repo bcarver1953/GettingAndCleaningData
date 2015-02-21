@@ -34,6 +34,14 @@ BaseDataColumnNames data frame - used in the interim data assembly and manipulat
 
 Interim global data frame 
 
+| Variable  | Description | 
+| ------------- | ------------- |
+| Subject  | A unique key to identify each subject (person) observed and monitored in the study <br>Values:<br>numeric 1
+| Activity | Original numeric activity code from y_test and y_train.txt<br>Values:<br>
+| Activity_Label | The manually observed activity that described a subject at time of observation/data collection<br>Values:<br>Walking<br>Walking Upstairs<br>Walking Downstairs<br>Sitting<br>Standing<br>Laying |
+ through 30 |
+| averages ||
+
 
 tidy_data.txt data frame
 
