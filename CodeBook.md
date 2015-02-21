@@ -7,12 +7,10 @@ Data Manipulation and Transformation Steps:
 
 | Filename  | Description | 
 | ------------- | ------------- |
-| X_test.txt/.csv<br>X_train.tst/.csv  | The base text files *.txt were edited to:<br>- comvert amm multi-space strings to a single space <br> - remove leading spaces in the first column<br>- use a comma field separator<p>and then were saved as filetype *.csv| 
-|  | Base 'train' data in text and cleaned comma separate values formats  |
-| y_test.txt/.csv  | Manual activity observations matching each detailed measurement row in X_test.csv |
-| y_train.txt/.csv  | Manual activity observations matching each detailed measurement row in X_train.csv |
-| subject_test.txt  | Observed individual identifying row matching each detailed measurement row in X_test.csv   |
-| subject_train.txt  | Observed individual identifying row matching each detailed measurement row in X_train.csv   |
+| ColumnNames.txt  | this file was created and loaded as a reference dataframe identifying the columns of interest 
+| X_test.txt/.csv<br>X_train.tst/.csv  | The base data files *.txt were edited to:<br>- convert amm multi-space strings to a single space <br> - remove leading spaces in the first column<br>- use a comma field separator<p>and then were saved as filetype *.csv<br> These were then loaded to a dataframe and columns of interest selected in a subset action| 
+| subject_test.txt<br>subject_train.txt  | These files were loaded to sparate data frames and bound to their associated base data rows   |
+|   | Observed individual identifying row matching each detailed measurement row in X_train.csv   |
 | activity_labels.txt | Text labels describing each observed activity (waliking, sitting ...) |
 | ColumnNames.txt  | Researcher constructed indices to identify and correlate rownames of interest |
 | run_analysis.R  | R script containing the automated data manipulation steps | 
@@ -22,4 +20,8 @@ Data Manipulation and Transformation Steps:
 See the README.md document for a list and description of all data sets in use.
 
 Variables in Use:
+
+BaseDataColumnNames data frame
+
+
 
