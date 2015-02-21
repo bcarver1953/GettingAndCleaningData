@@ -25,5 +25,8 @@ BaseDataColumnNames data frame
 
 | Variable  | Description | 
 | ------------- | ------------- |
-| Position  | Relative position of a variable in the base data (  X_test.txt/.csv & X_train.tst/.csv) <br>selected values 1 to 561 |
+| Position  | Relative position of a variable in the base data (  X_test.txt/.csv & X_train.tst/.csv ) <br>selected values 1 to 561 |
+| LoadVarName | The "V"-prefixed variable name assigned to base data frames in X_test.csv & X_train.tst.csv |
+| TidyName | The final "tidy data set" variable name |
+| OriginalName | The original base data measureent name from the features.txt file<br>(These were recoded for R purposes into names that better matched R syntax standards)|
 
