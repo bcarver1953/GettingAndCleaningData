@@ -1,5 +1,4 @@
 # Codebook.md - GettingAndCleaningData
-Course project for Coursera "Getting and Cleaning Data" 
 
 B. Carver | February 2015  |  Project Code Book 
 
