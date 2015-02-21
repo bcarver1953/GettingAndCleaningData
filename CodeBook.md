@@ -7,7 +7,7 @@ Data Manipulation and Transformation Steps:
 
 | Filename  | Description | 
 | ------------- | ------------- |
-| X_test.txt/.csv  | Base 'test' data in text and cleaned comma separate values formats  | 
+| X_test.txt/.csv<br>test  | The base text file was   | 
 | X_train.tst/.csv | Base 'train' data in text and cleaned comma separate values formats  |
 | y_test.txt/.csv  | Manual activity observations matching each detailed measurement row in X_test.csv |
 | y_train.txt/.csv  | Manual activity observations matching each detailed measurement row in X_train.csv |
