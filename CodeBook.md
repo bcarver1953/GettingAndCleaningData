@@ -14,8 +14,7 @@ B. Carver | February 2015  |  Project Code Book
 | <b>Column Binding</b> | For each of test and train data:<br> The three component files were loaded to working data frames, >br>variables of interest in the base data selected and renamed <br> and then combined in a "cbind" action to associate each subject with the observed activity and the related device measurements. |
 | <b>Merge</b> | The resulting Test and Train observations were unioned in an rbind action into a single global set of observations. |
 | <b>Recoding</b> | Activity labels were recoded into a new "Activity_Label" variable for greater readbility |
-| <b>Summarization.</b> | 
-| tidy_data.txt  | Averages by Subject for columns of interest (those base columns associated with mean or standard deviation. |
+| <b>Summarization</b> | Averages by Subject for columns of interest (those base columns associated with mean or standard deviation.  Saved to tidy_data.txt|
 
 
 See the README.md document for a list and description of all data sets in use.
@@ -50,6 +49,6 @@ tidy_data.txt data frame
 | Variable  | Description | 
 | ------------- | ------------- |
 | Activity_Label | The manually observed activity that described a subject at time of observation/data collection<br>Values:<br>Walking<br>Walking Upstairs<br>Walking Downstairs<br>Sitting<br>Standing<br>Laying |
-| Subject  | A unique key to identify each subject (person) observed and monitored in the study <br>Values:<br>numeric 1 through 30 |
-| averages |86 separate mean and standard deviation measurements from the base data|
+| Subject  | A unique key to identify each subject (person) observed and monitored in the study <br>Values:<br>integer 1 through 30 |
+| averages |86 separate numeric mean and standard deviation measurements summarized from the base data to each Activity_Label and Subject.|
 
