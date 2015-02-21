@@ -39,7 +39,7 @@ tidy_data.txt data frame
 
 | Variable  | Description | 
 | ------------- | ------------- |
-| Activity_Label | The manually observed activity that described a subject at time of observation/data collection<br>Values:<br>- <br>Walking<br>Walking Upstairs<br>Walking Downstairs<br>Sitting<br>Standing<br>Laying |
+| Activity_Label | The manually observed activity that described a subject at time of observation/data collection<br>Values:<br>Walking<br>Walking Upstairs<br>Walking Downstairs<br>Sitting<br>Standing<br>Laying |
 | Subject  | A unique key to identify each subject (person) observed and monitored in the study |
 | averages ||
 
