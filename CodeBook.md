@@ -13,7 +13,7 @@ B. Carver | February 2015  |  Project Code Book - Codebook.md
 | y_test.txt<br>y_train.txt | These files identify the activity being performed at each observtion in the base data<br> they were loaded to a working data frame and bound to each base data row from the corresponding base data file X_test.txt/.csv & X_train.tst/.csv |   
 | subject_test.txt<br>subject_train.txt  | These files identify the subject associated with each base data row and were loaded to separate data frames |
 | <b>Column Binding</b> | For each of test and train data:<br> The three compnent files were loaded to working data frames, >br>variables of interest in the base data selected and renamed <br> and then combined in a "cbind" action to associate each subject with the observed activity and the related device measurements |
-| <b>Test and Train merge</b> | The resulting Test and Train observations were unioned in an rbind action into a single global set of observations |
+| <b>Merge</b> | The resulting Test and Train observations were merged in an rbind action into a single global set of observations |
 | <b>Recoding</b> | Activity labels were recoded into a new "Activity_Label" variable for greater readbility |
 | <b>Summarization</b> | 
 | tidy_data.txt  | Averages by Subject for columns of interest (those base columns associated with mean or standard deviation |
