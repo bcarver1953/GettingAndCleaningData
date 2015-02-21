@@ -23,7 +23,8 @@ See the README.md document for a list and description of all data sets in use.
 
 <b>Variables in Use</b>
 
-BaseDataColumnNames data frame - used in the interim data assembly and manipulation steps.  
+BaseDataColumnNames data frame - used in the interim data assembly and manipulation steps.
+<br>One row per measure column name related to mean or standard deviation
 
 | Variable  | Description | 
 | ------------- | ------------- |
@@ -32,22 +33,24 @@ BaseDataColumnNames data frame - used in the interim data assembly and manipulat
 | TidyName | The final "tidy data set" variable name |
 | OriginalName | The original base data measureent name from the features.txt file<br>(These were recoded for R purposes into names that better matched R syntax standards)|
 
-Interim global data frame 
+<b>Interim global data frame</b>
+<br>One row per observation in either the test or train data sets
 
 | Variable  | Description | 
 | ------------- | ------------- |
-| Subject  | A unique key to identify each subject (person) observed and monitored in the study <br>Values:<br>numeric 1
-| Activity | Original numeric activity code from y_test and y_train.txt<br>Values:<br>
-| Activity_Label | The manually observed activity that described a subject at time of observation/data collection<br>Values:<br>Walking<br>Walking Upstairs<br>Walking Downstairs<br>Sitting<br>Standing<br>Laying |
- through 30 |
-| averages ||
+| Subject  | A unique key to identify each subject (person) observed and monitored in the study <br>Values:<br>numeric 1 through 30 |
+| Activity | Original numeric activity code from y_test and y_train.txt<br>The manually observed activity that described a subject at time of observation/data collection<br>Values:<br>Values:<br>1 Walking<br>2 Walking Upstairs<br>3 Walking Downstairs<br>4 Sitting<br>5 Standing<br>6 Laying |
+| Activity_Label | Character descriptino of Activity.<br>Values:<br>Walking<br>Walking Upstairs<br>Walking Downstairs<br>Sitting<br>Standing<br>Laying |
+| Count | The value "1" for each observation (as a Qualty Assurance measure)|
+| *Measures* | 86 separate mean and standard deviation measurements from the base data |
 
 
 tidy_data.txt data frame
+<br>One row per activity and subject with the mean of 86 "mean" or "stanrdard deviation" measurements 
 
 | Variable  | Description | 
 | ------------- | ------------- |
 | Activity_Label | The manually observed activity that described a subject at time of observation/data collection<br>Values:<br>Walking<br>Walking Upstairs<br>Walking Downstairs<br>Sitting<br>Standing<br>Laying |
 | Subject  | A unique key to identify each subject (person) observed and monitored in the study <br>Values:<br>numeric 1 through 30 |
-| averages ||
+| averages |86 separate mean and standard deviation measurements from the base data|
 
