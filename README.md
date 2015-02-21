@@ -19,4 +19,8 @@ Files in use:
 | tidy_data.txt  | Averages by Subject for columns of interest (those base columns associated with mean or standard deviation |
 | CodeBook.md  | Code book describing how the tidy data set was constructed |
 
+Raw data preparation:
+
+
+
 See the CodeBook.md document for further details on data manipulation and a detailed description of the final data set TidyData.txt.
