@@ -1,7 +1,7 @@
-# GettingAndCleaningData
+# Codebook.md - GettingAndCleaningData
 Course project for Coursera "Getting and Cleaning Data" 
 
-B. Carver | February 2015  |  Project Code Book - Codebook.md
+B. Carver | February 2015  |  Project Code Book 
 
 <b>Data Manipulation and Transformation Steps</b>
 
