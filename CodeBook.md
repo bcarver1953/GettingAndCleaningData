@@ -50,8 +50,8 @@ tidy_data.txt data frame
 | ------------- | ------------- |
 | Activity_Label | The manually observed activity that described a subject at time of observation/data collection<br>Values:<br>Walking<br>Walking Upstairs<br>Walking Downstairs<br>Sitting<br>Standing<br>Laying |
 | Subject  | A unique key to identify each subject (person) observed and monitored in the study <br>Values:<br>integer 1 through 30 |
-| averages |86 separate numeric mean and standard deviation measurements summarized from the base data to each Activity_Label and Subject.|
-| Measurement | | | | | 
+| Averages |86 separate numeric mean and standard deviation measurements summarized from the base data to each Activity_Label and Subject.|
+| Measurements | | | | | 
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | BodyAcc_mean_X  | BodyAcc_mean_Y  | BodyAcc_mean_Z  | BodyAcc_std_X  | BodyAcc_std_Y  |
 | BodyAcc_std_Z  | GravityAcc_mean_X  | GravityAcc_mean_Y  | GravityAcc_mean_Z  | GravityAcc_std_X  |
