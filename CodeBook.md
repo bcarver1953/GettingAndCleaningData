@@ -14,7 +14,7 @@ B. Carver | February 2015  |  Project Code Book
 | <b>Column Binding</b> | For each of test and train data:<br> The three component files were loaded to working data frames, variables of interest in the base data were selected and renamed and then combined in a "cbind" action to associate each subject with the observed activity and the related device measurements. <br>Data frames: df_test, df_train|
 | <b>Merge</b> | The resulting combined observations in each of the test and train data frame groups were unioned in an rbind action into a single global set of observations ("Interim global data frame" below). <br>Data frame: df_all|
 | <b>Recoding</b> | The Activity value in this final combined data frame was recoded into a new "Activity_Label" variable for greater readbility. <br>Data frame: df_all|
-| <b>Summarization</b> | Averages by Subject for columns of interest (those base columns associated with mean or standard deviation).  These summary results were saved to tidy_data.txt. <br>Data frame: df_summary|
+| <b>Summarization</b> | Averages by Subject for columns of interest (those base columns associated with mean or standard deviation).   <br>Data frame: df_summary <br>These summary results were saved to tidy_data.txt.|
 
 
 See the README.md document for a list and description of all data sets in use.
