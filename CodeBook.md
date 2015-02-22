@@ -52,6 +52,8 @@ tidy_data.txt data frame
 | Subject  | A unique key to identify each subject (person) observed and monitored in the study <br>Values:<br>integer 1 through 30 |
 | averages |86 separate numeric mean and standard deviation measurements summarized from the base data to each Activity_Label and Subject.|
 
+Measurement Variables:
+| ------------- | ------------- | ------------- | ------------- | ------------- |
 | BodyAcc_mean_X  | BodyAcc_mean_Y  | BodyAcc_mean_Z  | BodyAcc_std_X  | BodyAcc_std_Y  |
 | BodyAcc_std_Z  | GravityAcc_mean_X  | GravityAcc_mean_Y  | GravityAcc_mean_Z  | GravityAcc_std_X  |
 | GravityAcc_std_Y  | GravityAcc_std_Z  | BodyAccJerk_mean_X  | BodyAccJerk_mean_Y  | BodyAccJerk_mean_Z |
