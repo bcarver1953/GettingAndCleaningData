@@ -14,6 +14,7 @@ Files in use:
 | subject_train.txt  | Observed individual identifying row matching each detailed measurement row in X_train.csv   |
 | activity_labels.txt | Text labels describing each observed activity (walking, sitting ...) |
 | ColumnNames.txt  | Researcher constructed indices to identify and correlate rownames of interest |
+| features.txt | The original list of measurements present in X_test and X_train.txt/csv |
 | run_analysis.R  | R script containing the automated data manipulation steps | 
 | tidy_data.txt  | Averages by Subject for columns of interest (those base columns associated with mean or standard deviation |
 | CodeBook.md  | Code book describing how the tidy data set was constructed |
