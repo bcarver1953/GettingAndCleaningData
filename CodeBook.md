@@ -54,6 +54,7 @@ tidy_data.txt data frame
 
 Measurement Variables:
 
+| Measurement | | | | | 
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | BodyAcc_mean_X  | BodyAcc_mean_Y  | BodyAcc_mean_Z  | BodyAcc_std_X  | BodyAcc_std_Y  |
 | BodyAcc_std_Z  | GravityAcc_mean_X  | GravityAcc_mean_Y  | GravityAcc_mean_Z  | GravityAcc_std_X  |
