@@ -52,3 +52,21 @@ tidy_data.txt data frame
 | Subject  | A unique key to identify each subject (person) observed and monitored in the study <br>Values:<br>integer 1 through 30 |
 | averages |86 separate numeric mean and standard deviation measurements summarized from the base data to each Activity_Label and Subject.|
 
+| BodyAcc_mean_X  | BodyAcc_mean_Y  | BodyAcc_mean_Z  | BodyAcc_std_X  | BodyAcc_std_Y  |
+| BodyAcc_std_Z  | GravityAcc_mean_X  | GravityAcc_mean_Y  | GravityAcc_mean_Z  | GravityAcc_std_X  |
+| GravityAcc_std_Y  | GravityAcc_std_Z  | BodyAccJerk_mean_X  | BodyAccJerk_mean_Y  | BodyAccJerk_mean_Z |
+| BodyAccJerk_std_X  | BodyAccJerk_std_Y  | BodyAccJerk_std_Z  | BodyGyro_mean_X  | BodyGyro_mean_Y |
+| BodyGyro_mean_Z  | BodyGyro_std_X  | BodyGyro_std_Y  | BodyGyro_std_Z  | BodyGyroJerk_mean_X |
+| BodyGyroJerk_mean_Y  | BodyGyroJerk_mean_Z  | BodyGyroJerk_std_X  | BodyGyroJerk_std_Y  | BodyGyroJerk_std_Z |
+| BodyAccMag_mean  | BodyAccMag_std  | GravityAccMag_mean  | GravityAccMag_std  | BodyAccJerkMag_mean |
+| BodyAccJerkMag_std  | BodyGyroMag_mean  | BodyGyroMag_std  | BodyGyroJerkMag_mean  | BodyGyroJerkMag_std |
+| fBodyAcc_mean_X  | fBodyAcc_mean_Y  | fBodyAcc_mean_Z  | fBodyAcc_std_X  | fBodyAcc_std_Y  |
+| fBodyAcc_std_Z  | fBodyAcc_meanFreq_X  | fBodyAcc_meanFreq_Y  | fBodyAcc_meanFreq_Z  | fBodyAccJerk_mean_X |
+| fBodyAccJerk_mean_Y  | fBodyAccJerk_mean_Z  | fBodyAccJerk_std_X  | fBodyAccJerk_std_Y  | fBodyAccJerk_std_Z  |
+| fBodyAccJerk_meanFreq_X  | fBodyAccJerk_meanFreq_Y  | fBodyAccJerk_meanFreq_Z  | fBodyGyro_mean_X  | fBodyGyro_mean_Y  |
+| fBodyGyro_mean_Z  | fBodyGyro_std_X  | fBodyGyro_std_Y  | fBodyGyro_std_Z  | fBodyGyro_meanFreq_X  |
+| fBodyGyro_meanFreq_Y  | fBodyGyro_meanFreq_Z  | fBodyAccMag_mean  | fBodyAccMag_std  | fBodyAccMag_meanFreq |
+| fBodyBodyAccJerkMag_mean  | fBodyBodyAccJerkMag_std  | fBodyBodyAccJerkMag_meanFreq  | fBodyBodyGyroMag_mean  | fBodyBodyGyroMag_std  |
+| fBodyBodyGyroMag_meanFreq  | fBodyBodyGyroJerkMag_mean  | fBodyBodyGyroJerkMag_std  | fBodyBodyGyroJerkMag_meanFreq  | angletBodyAccMean_gravity |
+| angletBodyAccJerkMean_gravityMean  | angletBodyGyroMean_gravityMean  | angletBodyGyroJerkMean_gravityMean | angleX_gravityMean  | angleY_gravityMean |
+| angleZ_gravityMean | 
