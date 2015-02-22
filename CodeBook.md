@@ -53,6 +53,7 @@ tidy_data.txt data frame
 | averages |86 separate numeric mean and standard deviation measurements summarized from the base data to each Activity_Label and Subject.|
 
 Measurement Variables:
+
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | BodyAcc_mean_X  | BodyAcc_mean_Y  | BodyAcc_mean_Z  | BodyAcc_std_X  | BodyAcc_std_Y  |
 | BodyAcc_std_Z  | GravityAcc_mean_X  | GravityAcc_mean_Y  | GravityAcc_mean_Z  | GravityAcc_std_X  |
